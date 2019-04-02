@@ -3,6 +3,7 @@ Redis调用
 ### 调用
 具体见 [Redis 调用](https://segmentfault.com/a/1190000009695841)
 
+```
 // 添加队列
 Redis::sadd('coupon_read1', '1');
 Redis::sadd('coupon_read1', [2,3,4]);
@@ -38,3 +39,4 @@ Redis::sinterstore('foo', array('set1', 'set2'));
 
 // 判断元素是否属于当前set集合
 Redis::sismember('set2', '123'); // 返回 true or false
+```
