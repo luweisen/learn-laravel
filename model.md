@@ -1,12 +1,3 @@
-### 官方网站
-* [Laravel.com](http://laravel.com/) —— Laravel官网
-* [golaravel.com](http://www.golaravel.com/) —— Laravel中文网
-* [lumen](http://lumen.laravel-china.org/) —— 为速度而生的 Laravel 框架
-* [PHP 之道](http://laravel-china.github.io/php-the-right-way/#object_caching) —— PHP The Right Way
-
-### 文档
-* [5.8文档](https://learnku.com/docs/laravel/5.8)
-
 ### 数据库调试
 
 开启日志
