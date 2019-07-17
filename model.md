@@ -100,7 +100,8 @@ User::whereDate('created_at', date('Y-m-d'));
 User::whereDay('created_at', date('d'));
 User::whereMonth('created_at', date('m'));
 User::whereYear('created_at', date('Y'));
-
+whereHas // 条件
+whereDoesntHave // whereHas相反函数
 ```
 
 ```
@@ -233,6 +234,7 @@ app // 应用程序核心
   support // 帮助类, 帮助函数
   jobs // 队列任务
   listeners // 监听处理类
+  Traits // 
 bootstrap // 引导目录
 config // 配置
 database // 数据迁移, 数据填充
